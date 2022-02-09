@@ -1193,15 +1193,15 @@ catlo(storage1)
      download1 = `
 ▢ 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
-▢ ${prefix}play
+▢ ${prefix}song
 
-▢ ${prefix}ytmp3
+▢ ${prefix}yt
 
-▢ ${prefix}ytmp4
+▢ ${prefix}video
 
 ▢ ${prefix}igdl
 
-▢ ${prefix}ytsearch
+▢ ${prefix}yts
 
 ▢ ${prefix}igstory
 
@@ -1543,8 +1543,8 @@ break
 }
 })
              break 
-   case 'youtube':
-      case 'ytmp3':
+   case 'yts':
+      case 'yt':
       case 'yt':
       case 'video':
              if (args.length < 1) return reply('*Where is the link?*')
@@ -1899,7 +1899,7 @@ break
 						fs.unlinkSync(ran)
 					})
 					break
-      case 'kick':
+      case 'palayan':
 if (!isOwner && !isGroupAdmins) return reply('*Admin Group Only*')
 if (!isBotGroupAdmins) return reply('*Bot not admin!*')
 if (!isGroup) return
@@ -2233,7 +2233,7 @@ ${repo.open_issues} Issue${repo.description ? `
 }).join('\n\n')
             reply(str)
             break
-     case 'image':
+     case 'img':
      case 'gimage':
      case 'googleimage':
               if (args.length < 1) return reply('*What do you want to search?*')
