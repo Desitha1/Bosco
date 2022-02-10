@@ -1310,12 +1310,12 @@ wa.me/${owner}`
          case 'gc':
        case 'group':
         rows = [
-           {title: 'open', description: "", rowId: `OPEN`},
-           {title: 'close', description: "", rowId: `CLOSE`},
+           {title: 'mute', description: "", rowId: `OPEN`},
+           {title: 'unmute', description: "", rowId: `CLOSE`},
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
           section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
-          button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [ᴏᴘᴇɴ/ᴄʟᴏsᴇ]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [ᴏɴ/ᴏғғ]*`,
+          button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [monada balanne/]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [palayan/]*`,
           sections: section, listType: 1}
           bosco.sendMessage(from, button, MessageType.listMessage, {quoted: ftroli})
                     break
@@ -2090,15 +2090,15 @@ break
           	break
 	case 'self':
           	if (!mek.key.fromMe) return 
-          	if (banChats === true) return
+          	if (banChats === false) return
           	uptime = process.uptime()
-          	banChats = true
+          	banChats = false
               fgclink(`*[ SELF - MODE ]*`)
           	break
 
 //------------------< Downloader/And Search Media >-------------------
 
-       case 'igdl': 
+       case 'igl': 
        case 'instagram':
               if (!q) return reply('*Which Links?*')
               if (!q.includes('instagram')) return reply(mess.error.Iv)
@@ -2353,7 +2353,7 @@ ${repo.open_issues} Issue${repo.description ? `
                reply(lirik)
 })
                break
-      case 'playstore':
+      case 'apk':
               try {
               if (args.length == 0) return reply(`Send orders *${prefix}playstore [ apk ]*\nExample : ${prefix}playstore pubg`)
               query = args.join(" ")
@@ -2425,7 +2425,7 @@ teks += `*▢ Title : ${get_result[i].title}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 teks = `
-*I ᴀᴍ Sᴛɪʟʟ Aʟɪᴠᴇ Bʀᴏ :)*
+**~M DESH~* Sᴛɪʟʟ Aʟɪᴠᴇ Bʀᴏ :)*
 *Sᴘᴇᴇᴅ :* ${latensie.toFixed(4)} Second
 *Rᴀᴍ Usᴀɢᴇ :* ${ram2}
 *Bᴀᴛᴛᴇʀʏ :* ${baterai}% ${charger}
