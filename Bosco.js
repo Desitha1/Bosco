@@ -1315,7 +1315,7 @@ wa.me/${owner}`
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
           section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
-          button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [monada balanne/]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [palayan/]*`,
+          button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [Open/Close]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [On/Off]*`,
           sections: section, listType: 1}
           bosco.sendMessage(from, button, MessageType.listMessage, {quoted: ftroli})
                     break
