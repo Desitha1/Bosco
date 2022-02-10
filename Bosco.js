@@ -1310,8 +1310,8 @@ wa.me/${owner}`
          case 'gc':
        case 'group':
         rows = [
-           {title: 'mute', description: "", rowId: `OPEN`},
-           {title: 'unmute', description: "", rowId: `CLOSE`},
+           {title: 'open', description: "", rowId: `OPEN`},
+           {title: 'close', description: "", rowId: `CLOSE`},
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
           section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
