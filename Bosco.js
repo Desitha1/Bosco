@@ -2090,15 +2090,15 @@ break
           	break
 	case 'self':
           	if (!mek.key.fromMe) return 
-          	if (banChats === false) return
+          	if (banChats === true) return
           	uptime = process.uptime()
-          	banChats = false
+          	banChats = true
               fgclink(`*[ SELF - MODE ]*`)
           	break
 
 //------------------< Downloader/And Search Media >-------------------
 
-       case 'igl': 
+       case 'ig': 
        case 'instagram':
               if (!q) return reply('*Which Links?*')
               if (!q.includes('instagram')) return reply(mess.error.Iv)
